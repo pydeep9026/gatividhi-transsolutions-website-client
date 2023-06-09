@@ -32,7 +32,7 @@ const Home = () => {
         socialData={socialData}
       />
     </>
-  );
-};
+  )
+}
 
 export default Home;
