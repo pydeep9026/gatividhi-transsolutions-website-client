@@ -44,7 +44,7 @@ export default function Footer({brandData}) {
           <img  src={brandData.logo1} alt={brandData.name}></img>
             <div className='col-md-3 col-lg-4 col-xl-3'>
           
-              <p>
+              <p className='tagline'>
                 Where Logistics Meet innovation
               </p>
             </div>
@@ -53,22 +53,17 @@ export default function Footer({brandData}) {
               <h4 className='footer-title'>Company</h4>
               <p>
                 <a href='#!' className='footer-link'>
-                  Angular
+                  Services
                 </a>
               </p>
               <p>
                 <a href='#!' className='footer-link'>
-                  React
+                  Pricing
                 </a>
               </p>
               <p>
                 <a href='#!' className='footer-link'>
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='footer-link'>
-                  Laravel
+                  Contact
                 </a>
               </p>
             </div>
@@ -77,22 +72,17 @@ export default function Footer({brandData}) {
               <h4 className='footer-title'>Useful links</h4>
               <p>
                 <a href='#!' className='footer-link'>
-                  Pricing
+                  Get quote
                 </a>
               </p>
               <p>
                 <a href='#!' className='footer-link'>
-                  Settings
+                  feedback
                 </a>
               </p>
               <p>
                 <a href='#!' className='footer-link'>
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='footer-link'>
-                  Help
+                  complaint
                 </a>
               </p>
             </div>
@@ -101,19 +91,19 @@ export default function Footer({brandData}) {
               <h4 className='footer-title'>Contact</h4>
               <p>
                 <i className='icon-home'></i>
-                New York, NY 10012, US
+                Gomtinagar, Lucknow, uttar pradesh, India
               </p>
               <p>
                 <i className='icon-envelope'></i>
-                info@example.com
+                gatividhits@gmail.com
               </p>
               <p>
                 <i className='icon-phone'></i>
-                + 01 234 567 88
+                +919026003602
               </p>
               <p>
                 <i className='icon-print'></i>
-                + 01 234 567 89
+                +919026003602
               </p>
             </div>
           </div>
@@ -124,9 +114,9 @@ export default function Footer({brandData}) {
         <div className='container'>
           <div className='row'>
             <div className='col-12 text-center'>
-              <p className='footer-bottom-text'>
+              <h3 className='footer-bottom-text'>
                 © 2023 Gatividhi transsolutions pvt. ltd. All rights reserved.
-              </p>
+              </h3>
             </div>
           </div>
         </div>
