@@ -45,12 +45,12 @@ export default function Footer({brandData}) {
             <div className='col-md-3 col-lg-4 col-xl-3'>
           
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Where Logistics Meet innovation
               </p>
             </div>
 
             <div className='col-md-2 col-lg-2 col-xl-2'>
-              <h6 className='footer-title'>Products</h6>
+              <h4 className='footer-title'>Company</h4>
               <p>
                 <a href='#!' className='footer-link'>
                   Angular
@@ -74,7 +74,7 @@ export default function Footer({brandData}) {
             </div>
 
             <div className='col-md-3 col-lg-2 col-xl-2'>
-              <h6 className='footer-title'>Useful links</h6>
+              <h4 className='footer-title'>Useful links</h4>
               <p>
                 <a href='#!' className='footer-link'>
                   Pricing
@@ -98,7 +98,7 @@ export default function Footer({brandData}) {
             </div>
 
             <div className='col-md-4 col-lg-3 col-xl-3'>
-              <h6 className='footer-title'>Contact</h6>
+              <h4 className='footer-title'>Contact</h4>
               <p>
                 <i className='icon-home'></i>
                 New York, NY 10012, US

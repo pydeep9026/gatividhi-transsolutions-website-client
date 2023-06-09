@@ -78,7 +78,7 @@ export const GlobalStyles = createGlobalStyle`
 
         &:hover {
             transition: var(--transition);
-            color: var(--color-pry-300);
+            color: #D52D27;
         }
     }
     
