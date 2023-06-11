@@ -1,24 +1,10 @@
 import React, { useState, useEffect } from "react";
-import {
-  FaqContainer,
-  FaqWrap,
-  FaqHeader,
-  FaqSubHeader,
-  Faq,
-  FaqItemWrap,
-  FaqQuestionWrap,
-  FaqQuestion,
-  FaqIcon,
-  FaqAnswer,
-  FaqAnswerWrap,
-  FaqButton,
-} from "./FaqSectionStyles";
 import Button from "../../components/Button/Button";
+import "./faq.css"
 
 const FaqSection = ({ faqData }) => {
   const [clicked, setClicked] = useState(false);
 
-  //TODO: Handle accordion toggle effect (extract index and update state)
   const handleToggle = (index) => {
     if (clicked === index) {
       return setClicked(null);
@@ -26,52 +12,57 @@ const FaqSection = ({ faqData }) => {
     setClicked(index);
   };
 
-  //TODO: Get last accordion state from localStorage
   useEffect(() => {
     const getLocalAccordion = localStorage.getItem("localAccordion");
     setClicked(JSON.parse(getLocalAccordion));
   }, []);
 
-  //TODO: push recent accordion state to localStorage
   useEffect(() => {
     localStorage.setItem("localAccordion", JSON.stringify(clicked));
   });
 
   return (
     <>
-      <FaqContainer>
-        <FaqWrap>
-          <FaqHeader>{faqData.heading}</FaqHeader>
-          <FaqSubHeader>{faqData.subHeading}</FaqSubHeader>
-          <Faq>
+      <section className="FaqContainer">
+        <div className="FaqWrap">
+          <h2 className="FaqHeader">{faqData.heading}</h2>
+          <p className="FaqSubHeader">{faqData.subHeading}</p>
+          <div className="Faq">
             {faqData.faqs.map((faq, index) => {
+              const iconColor = clicked === index ? "#0154A0" : "#D52D27";
               return (
-                <FaqItemWrap key={index} id={index}>
-                  <FaqQuestionWrap
+                <div className="FaqItemWrap" key={index} id={index}>
+                  <div
+                    className="FaqQuestionWrap"
                     onClick={() => {
                       handleToggle(index);
                     }}
                   >
-                    <FaqQuestion>{faq.question}</FaqQuestion>
-                    <FaqIcon index={index} clicked={clicked}>
+                    <h5 className="FaqQuestion">{faq.question}</h5>
+                    <div
+                      className="FaqIcon"
+                      index={index}
+                      clicked={clicked}
+                      style={{ color: iconColor }}
+                    >
                       {clicked === index ? (
                         <i className="fas fa-chevron-up"></i>
                       ) : (
                         <i className="fas fa-chevron-down"></i>
                       )}
-                    </FaqIcon>
-                  </FaqQuestionWrap>
+                    </div>
+                  </div>
                   {clicked === index ? (
-                    <FaqAnswerWrap clicked index>
-                      <FaqAnswer>{faq.answer}</FaqAnswer>
-                    </FaqAnswerWrap>
+                    <div className="FaqAnswerWrap" clicked index>
+                      <p className="FaqAnswer">{faq.answer}</p>
+                    </div>
                   ) : null}
-                </FaqItemWrap>
+                </div>
               );
             })}
-          </Faq>
-        </FaqWrap>
-      </FaqContainer>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

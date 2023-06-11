@@ -1,0 +1,67 @@
+.FaqContainer {
+    max-width: 100%;
+    min-height: 0rem;
+    margin: 4rem 0rem;
+    padding: 0rem 1rem;
+  }
+  
+  .FaqWrap {
+    max-width: var(--max-container);
+    min-height: 20rem;
+    margin: var(--center-container);
+    text-align: center;
+  }
+  
+  .FaqHeader {
+    margin: 1rem;
+  }
+  
+  .FaqSubHeader {
+    max-width: 33.8125rem;
+    margin: var(--center-container);
+  }
+  
+  .Faq {
+    max-width: 33.8125rem;
+    margin: var(--center-container);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    border-top: 0.1rem solid var(--color-sec-400);
+  }
+  
+  .FaqItemWrap {
+    min-height: 4.6875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--color-sec-400);
+  }
+  
+  .FaqQuestionWrap {
+    min-height: 4.6875rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .FaqQuestion {
+    flex: 10;
+  }
+  
+  .FaqIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+
+  
+  .FaqAnswerWrap {
+    margin: 1rem 0rem;
+  }
+  
+
+  
