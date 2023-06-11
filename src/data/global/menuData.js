@@ -1,5 +1,6 @@
 import facebook from "../../assets/images/icon-facebook.svg";
 import twitter from "../../assets/images/icon-twitter.svg";
+import linkedin from "../../assets/images/icon-linkedin.svg";
 
 export const menuData = [
   {
@@ -24,6 +25,7 @@ export const btnData = {
   link: "/login",
 };
 
+
 export const socialData = [
   {
     id: 1,
@@ -36,5 +38,11 @@ export const socialData = [
     title: "twitter",
     image: twitter,
     link: "/facebook",
+  },
+  {
+    id: 2,
+    title: "linkedin",
+    image: linkedin,
+    link: "/linkedin",
   },
 ];

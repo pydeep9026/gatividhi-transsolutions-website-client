@@ -90,4 +90,13 @@
     margin-right: 0.5rem;
     vertical-align: middle;
   }
+
+  .socialdata{
+    display:flex;
+    gap: 0.5rem;
+  }
+
+  .socialdata img{
+    color: #000;
+  }
   

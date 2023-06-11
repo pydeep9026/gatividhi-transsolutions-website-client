@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-export default function Footer({brandData}) {
+export default function Footer({brandData,socialData}) {
 
   return (
     <footer className='footer'>
@@ -9,33 +9,18 @@ export default function Footer({brandData}) {
         <div className='social-networks-title'>
           <span>Get connected with us on social networks:</span>
         </div>
-
-        
-
-<div className='social-icons'>
-<a href='' className='social-icon me-4 text-reset'>
-  <i className='fab fa-facebook-f'></i>
-</a>
-<a href='' className='social-icon me-4 text-reset'>
-  <i className='fab fa-twitter'></i>
-</a>
-<a href='' className='social-icon me-4 text-reset'>
-  <i className='fab fa-google'></i>
-</a>
-<a href='' className='social-icon me-4 text-reset'>
-  <i className='fab fa-instagram'></i>
-</a>
-<a href='' className='social-icon me-4 text-reset'>
-  <i className='fab fa-linkedin'></i>
-</a>
-<a href='' className='social-icon me-4 text-reset'>
-  <i className='fab fa-github'></i>
-</a>
-
-        </div>
+        <div className='socialdata'>
+              {socialData.map((social) => {
+                return (
+                  <div className='socialdataitem' key={social.id} to={social.link}>
+                    <img src={social.image} alt={social.title}></img>
+                  </div>
+                );
+              })}
+            </div>
       </section>
 
-      {/* Footer Content Section */}
+
       <section className='footer-content'>
         
         <div className='container'>
