@@ -10,6 +10,8 @@ import { brandData } from "../../data/global/brandData";
 import { menuData, btnData, socialData } from "../../data/global/menuData";
 import { faqData } from "../../data/Home/FaqSectionData";
 import { featureData } from "../../data/Home/FeatureSectionData";
+import { FooterData } from "../../data/Home/footerSectiondata";
+import { Usefullinks } from "../../data/Home/footerSectiondata";
 
 const Home = () => {
   return (
@@ -30,6 +32,8 @@ const Home = () => {
         menuData={menuData}
         btnData={btnData}
         socialData={socialData}
+        footerData={FooterData}
+        Usefullinks={Usefullinks}
       />
     </>
   )

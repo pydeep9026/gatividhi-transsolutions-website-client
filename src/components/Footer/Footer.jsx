@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.css';
 
-export default function Footer({brandData,socialData}) {
+export default function Footer({brandData,socialData,menuData,footerData,Usefullinks}) {
 
   return (
     <footer className='footer'>
       <section className='social-networks'>
         <div className='social-networks-title'>
-          <span>Get connected with us on social networks:</span>
+          <span>{footerData.socialtitle}</span>
         </div>
         <div className='socialdata'>
               {socialData.map((social) => {
@@ -30,65 +30,49 @@ export default function Footer({brandData,socialData}) {
             <div className='col-md-3 col-lg-4 col-xl-3'>
           
               <p className='tagline'>
-                Where Logistics Meet innovation
+                {footerData.tagline}
               </p>
             </div>
 
             <div className='col-md-2 col-lg-2 col-xl-2'>
-              <h4 className='footer-title'>Company</h4>
-              <p>
-                <a href='#!' className='footer-link'>
-                  Services
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='footer-link'>
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='footer-link'>
-                  Contact
-                </a>
-              </p>
+              <h4 className='footer-title'>{footerData.footertitle1}</h4>
+              {menuData.map((menu) => {
+                return (
+                  <div className='footer-link' to={menu.link} key={menu.id}>
+                    {menu.title}
+                  </div>
+                );
+              })}
             </div>
 
             <div className='col-md-3 col-lg-2 col-xl-2'>
-              <h4 className='footer-title'>Useful links</h4>
-              <p>
-                <a href='#!' className='footer-link'>
-                  Get quote
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='footer-link'>
-                  feedback
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='footer-link'>
-                  complaint
-                </a>
-              </p>
+              <h4 className='footer-title'>{footerData.footertitle2}</h4>
+              {Usefullinks.map((menu) => {
+                return (
+                  <div className='footer-link' to={menu.link} key={menu.id}>
+                    {menu.title}
+                  </div>
+                );
+              })}
             </div>
 
             <div className='col-md-4 col-lg-3 col-xl-3'>
-              <h4 className='footer-title'>Contact</h4>
+              <h4 className='footer-title'>{footerData.footertitle3}</h4>
               <p>
                 <i className='icon-home'></i>
-                Gomtinagar, Lucknow, uttar pradesh, India
+                {footerData.address}
               </p>
               <p>
                 <i className='icon-envelope'></i>
-                gatividhits@gmail.com
+                {footerData.email}
               </p>
               <p>
                 <i className='icon-phone'></i>
-                +919026003602
+                {footerData.phone1}
               </p>
               <p>
                 <i className='icon-print'></i>
-                +919026003602
+                {footerData.phone2}
               </p>
             </div>
           </div>
@@ -100,7 +84,7 @@ export default function Footer({brandData,socialData}) {
           <div className='row'>
             <div className='col-12 text-center'>
               <h3 className='footer-bottom-text'>
-                © 2023 Gatividhi transsolutions pvt. ltd. All rights reserved.
+                {footerData.copyright}
               </h3>
             </div>
           </div>

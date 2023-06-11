@@ -1,30 +1,17 @@
 import React, { useState, useEffect } from "react";
-import {
-  HeaderContainer,
-  HeaderWrap,
-  HeaderLogo,
-  Logo,
-  MobileNav,
-  HeaderNav,
-  NavItems,
-  NavItem,
-  NavCtaDesktop,
-  NavCtaMobile,
-  HeaderSocial,
-  HeaderSocialItem,
-  Social
-} from "./HeaderStyles";
 import Button from "../Button/Button";
+import "./Header.css";
+import { Link } from "react-router-dom";
 
-const Header = ({brandData, menuData, btnData, socialData}) => {
+const Header = ({ brandData, menuData, btnData, socialData }) => {
   const [navToggle, setNavToggle] = useState(false);
 
-  //TODO: Handle mobile nav toggle
+
   const handleNavToggle = () => {
     setNavToggle(!navToggle);
   };
 
-  //TODO: Prevent page scroll when mobile nav is open (true)
+
   useEffect(() => {
     if (navToggle === true) {
       document.body.style.overflow = "hidden";
@@ -35,15 +22,12 @@ const Header = ({brandData, menuData, btnData, socialData}) => {
 
   return (
     <>
-      <HeaderContainer>
-        <HeaderWrap>
-          <HeaderLogo to="/">
-            <Logo
-              src={brandData.logo1}
-              alt={brandData.name}
-            ></Logo>
-          </HeaderLogo>
-          <MobileNav navToggle={navToggle}>
+      <header className="header-container">
+        <div className="header-wrap">
+          <Link to="/" className="header-logo">
+            <img src={brandData.logo1} alt={brandData.name} className="logo" />
+          </Link>
+          <div className={`mobile-nav ${navToggle ? "active" : ""}`}>
             <button onClick={handleNavToggle}>
               {navToggle ? (
                 <i className="fas fa-times"></i>
@@ -51,37 +35,41 @@ const Header = ({brandData, menuData, btnData, socialData}) => {
                 <i className="fas fa-bars"></i>
               )}
             </button>
-          </MobileNav>
-          <HeaderNav navToggle={navToggle}>
-            <NavItems>
+          </div>
+          <nav className={`header-nav ${navToggle ? "active" : ""}`}>
+            <div className="nav-items">
               {menuData.map((menu) => {
                 return (
-                  <NavItem to={menu.link} key={menu.id}>
+                  <Link to={menu.link} key={menu.id} className="nav-item">
                     {menu.title}
-                  </NavItem>
+                  </Link>
                 );
               })}
-            </NavItems>
-            <NavCtaDesktop>
+            </div>
+            <div className="nav-cta-desktop">
               <Button primary>{btnData.title}</Button>
-            </NavCtaDesktop>
-            <NavCtaMobile>
+            </div>
+            <div className="nav-cta-mobile">
               <Button outline blocked>
                 {btnData.title}
               </Button>
-            </NavCtaMobile>
-            <HeaderSocial>
+            </div>
+            <div className="header-social">
               {socialData.map((social) => {
                 return (
-                  <HeaderSocialItem key={social.id} to={social.link}>
-                    <Social src={social.image} alt={social.title}></Social>
-                  </HeaderSocialItem>
+                  <Link
+                    to={social.link}
+                    key={social.id}
+                    className="header-social-item"
+                  >
+                    <img src={social.image} alt={social.title} className="social" />
+                  </Link>
                 );
               })}
-            </HeaderSocial>
-          </HeaderNav>
-        </HeaderWrap>
-      </HeaderContainer>
+            </div>
+          </nav>
+        </div>
+      </header>
     </>
   );
 };
