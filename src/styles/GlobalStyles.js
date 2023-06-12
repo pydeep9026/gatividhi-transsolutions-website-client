@@ -61,6 +61,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         max-width: 100%;
         min-height: 100vh;
+        overflow-x: hidden;
         font-family: var(--font-pry-100);
         font-weight: var(--font-weight-100);
         background-color: var(--color-pry-100);

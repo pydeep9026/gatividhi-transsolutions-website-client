@@ -6,7 +6,7 @@ export const menuData = [
   {
     id: 1,
     title: "services",
-    link: "/features", 
+    link: "/services", 
   },
   {
     id: 2,

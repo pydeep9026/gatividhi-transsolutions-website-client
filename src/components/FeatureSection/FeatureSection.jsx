@@ -1,75 +1,59 @@
 import React, { useState } from "react";
-import {
-  FeatureContainer,
-  FeatureWrap,
-  FeatureHeader,
-  FeatureSubHeader,
-  FeatureTabs,
-  FeatureTab,
-  FeatureContentWrap,
-  FeatureImageWrap,
-  FeatureImage,
-  FeatureContent,
-  FeatureContentInner,
-  FeatureContentHeader,
-  FeatureContentSubHeader,
-} from "./FeatureSectionStyles";
 import Button from "../Button/Button";
+import "./FeatureSection.css";
 
 const FeatureSection = ({ featureData }) => {
   const [clicked, setClicked] = useState(0);
 
-  //TODO: Handle tab click event to extract index and update state
   const handleClick = (index) => {
     setClicked(index);
   };
 
   return (
     <>
-      <FeatureContainer>
-        <FeatureWrap>
-          <FeatureHeader>{featureData.header}</FeatureHeader>
-          <FeatureSubHeader>{featureData.subHeader}</FeatureSubHeader>
-          <FeatureTabs>
-            {featureData.featureTitles.map((title, index) => {
-              return (
-                <FeatureTab
-                  key={index}
-                  onClick={() => {
-                    handleClick(index);
-                  }}
-                  clicked={clicked}
-                  index={index}
-                >
-                  {title}
-                </FeatureTab>
-              );
-            })}
-          </FeatureTabs>
+      <section className="feature-container">
+        <div className="feature-wrap">
+          <h2 className="feature-header">{featureData.header}</h2>
+          <p className="feature-sub-header">{featureData.subHeader}</p>
+          <div className="feature-tabs">
+            {featureData.featureTitles.map((title, index) => (
+              <button
+                key={index}
+                className={`feature-tab ${clicked === index ? "active" : ""}`}
+                onClick={() => handleClick(index)}
+              >
+                {title}
+              </button>
+            ))}
+          </div>
 
-          {featureData.featureContent.map((feature, index) => {
-            return (
-              <FeatureContentWrap key={index} index={index} clicked={clicked}>
-                <FeatureImageWrap>
-                  <FeatureImage
-                    src={feature.image}
-                    alt={feature.imageAlt}
-                  ></FeatureImage>
-                </FeatureImageWrap>
-                <FeatureContent>
-                  <FeatureContentInner>
-                    <FeatureContentHeader>{feature.title}</FeatureContentHeader>
-                    <FeatureContentSubHeader>
-                      {feature.description}
-                    </FeatureContentSubHeader>
-                    <Button>{feature.btnText}</Button>
-                  </FeatureContentInner>
-                </FeatureContent>
-              </FeatureContentWrap>
-            );
-          })}
-        </FeatureWrap>
-      </FeatureContainer>
+          {featureData.featureContent.map((feature, index) => (
+            <div
+              key={index}
+              className={`feature-content-wrap ${
+                clicked === index ? "active" : ""
+              }`}
+            >
+              <div className="feature-image-wrap">
+                <img
+                  className="feature-image"
+                  src={feature.image}
+                  alt={feature.imageAlt}
+                />
+              </div>
+              <div className="feature-content">
+                <div className="feature-content-inner">
+                  <h3 className="feature-content-header">{feature.title}</h3>
+                  <p className="feature-content-sub-header">
+                    {feature.description}
+                  </p>
+                  <Button>{feature.btnText}</Button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 };

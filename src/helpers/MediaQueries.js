@@ -15,4 +15,3 @@ export const QUERIES = {
   desktop: `(min-width: ${BREAKPOINTS.xl / 16}rem)`,
   megaDesktop: `(min-width: ${BREAKPOINTS.xxl / 16}rem)`,
 };
-  
