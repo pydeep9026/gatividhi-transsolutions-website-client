@@ -12,6 +12,7 @@ import { faqData } from "../../data/Home/FaqSectionData";
 import { featureData } from "../../data/Home/FeatureSectionData";
 import { FooterData } from "../../data/Home/footerSectiondata";
 import { Usefullinks } from "../../data/Home/footerSectiondata";
+import Forms from "../../components/quoteforms/forms";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       />
       <Main>
         <HeroSection heroData={heroData} />
+        <Forms />
         <FeatureSection featureData={featureData} />
         <FaqSection faqData={faqData} />
       </Main>

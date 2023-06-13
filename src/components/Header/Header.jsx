@@ -47,12 +47,16 @@ const Header = ({ brandData, menuData, btnData, socialData }) => {
               })}
             </div>
             <div className="nav-cta-desktop">
-              <Button primary>{btnData.title}</Button>
+            <Link to="/getquote">
+              <Button  primary>{btnData.title}</Button>
+              </Link>
             </div>
             <div className="nav-cta-mobile">
+            <Link to="/getquote">
               <Button outline blocked>
                 {btnData.title}
               </Button>
+              </Link>
             </div>
             <div className="header-social">
               {socialData.map((social) => {

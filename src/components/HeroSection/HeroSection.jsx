@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../Button/Button";
-import heroBackground from "../../assets/images/bg-pattern.svg";
-import { QUERIES } from "../../helpers/MediaQueries";
 import "./HeroSection.css";
+import { Link,useNavigate } from "react-router-dom";
 
 const HeroSection = ({ heroData }) => {
+
+
   return (
     <>
       <section className="HeroContainer">
@@ -13,8 +14,10 @@ const HeroSection = ({ heroData }) => {
             <h1 className="HeroContentHeader">{heroData.header}</h1>
             <p className="HeroContentText">{heroData.subheader}</p>
             <div className="HeroButton">
-              <Button blocked spaced>{heroData.button1.text}</Button>
-              <Button blocked spaced secondary>{heroData.button2.text}</Button>
+              <Link to="/getquote">
+              <Button    blocked spaced>{heroData.button1.text}</Button></Link>
+              <Link to="/getquote">
+              <Button blocked spaced secondary>{heroData.button2.text}</Button></Link>
             </div>
           </div>
           <div className="HeroImageWrap">

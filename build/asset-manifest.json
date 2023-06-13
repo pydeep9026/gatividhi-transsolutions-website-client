@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.248b08c5.css",
-    "main.js": "/static/js/main.7fc5ccfe.js",
+    "main.css": "/static/css/main.ee1ff747.css",
+    "main.js": "/static/js/main.345bc156.js",
     "static/media/competetivepricing.png": "/static/media/competetivepricing.111daaaf4e25715714b2.png",
     "static/media/herotruck.png": "/static/media/herotruck.8c973f63581544229b5a.png",
     "static/media/securetrans.png": "/static/media/securetrans.feb276696ec23c0e5db6.png",
@@ -11,12 +11,12 @@
     "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.8ace592c61d694c13052a10606081af5.svg",
     "static/media/icon-twitter.svg": "/static/media/icon-twitter.b47fa15c589d3686dece203533467d46.svg",
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg",
-    "static/media/bg-pattern.svg": "/static/media/bg-pattern.5749a640ca543ef80af796c0a98cfcf9.svg",
-    "main.248b08c5.css.map": "/static/css/main.248b08c5.css.map",
-    "main.7fc5ccfe.js.map": "/static/js/main.7fc5ccfe.js.map"
+    "static/media/bg-pattern.svg": "/static/media/bg-pattern.5749a640ca543ef80af7.svg",
+    "main.ee1ff747.css.map": "/static/css/main.ee1ff747.css.map",
+    "main.345bc156.js.map": "/static/js/main.345bc156.js.map"
   },
   "entrypoints": [
-    "static/css/main.248b08c5.css",
-    "static/js/main.7fc5ccfe.js"
+    "static/css/main.ee1ff747.css",
+    "static/js/main.345bc156.js"
   ]
 }

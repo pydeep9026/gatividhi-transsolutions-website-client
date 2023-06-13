@@ -13,5 +13,5 @@ export const heroData = {
     link: "/",
   },
   image: illustration,
-  imageAlt: "a web app displayed by a monitor screen"
+  imageAlt: "a truck with gatividhi transsolutions logo"
 };
