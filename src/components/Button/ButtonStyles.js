@@ -22,8 +22,8 @@ export const CustomButton = styled.button`
   ${({ primary }) =>
     primary &&
     css`
-      background-color: var(--color-pry-300);
-      border-color: var(--color-pry-300);
+      background-color:#D52D27 ;
+      border-color:#D52D27;
 
       &:hover {
         color: var(--color-pry-300);
