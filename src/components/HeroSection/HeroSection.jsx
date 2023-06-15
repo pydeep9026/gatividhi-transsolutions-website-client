@@ -16,7 +16,7 @@ const HeroSection = ({ heroData }) => {
             <div className="HeroButton">
               <Link to="/getquote">
               <Button    blocked spaced>{heroData.button1.text}</Button></Link>
-              <Link to="/getquote">
+              <Link to="/services">
               <Button blocked spaced secondary>{heroData.button2.text}</Button></Link>
             </div>
           </div>

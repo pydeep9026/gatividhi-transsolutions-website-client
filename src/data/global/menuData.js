@@ -10,8 +10,8 @@ export const menuData = [
   },
   {
     id: 2,
-    title: "Pricing",
-    link: "/pricing",
+    title: "Online Payment",
+    link: "/payment",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const menuData = [
 
 export const btnData = {
   title: "Get quote",
-  link: "/login",
+  link: "/getquote",
 };
 
 

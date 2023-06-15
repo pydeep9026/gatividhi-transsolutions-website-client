@@ -4,7 +4,7 @@ import './Footer.css';
 export default function Footer({brandData,socialData,menuData,footerData,Usefullinks}) {
 
   return (
-    <footer className='footer'>
+    <footer id='contact' className='footer'>
       <section className='social-networks'>
         <div className='social-networks-title'>
           <span>{footerData.socialtitle}</span>

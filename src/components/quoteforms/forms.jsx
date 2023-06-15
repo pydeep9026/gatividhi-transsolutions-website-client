@@ -29,26 +29,17 @@ const   Forms = () => {
           </form>
         );
       case 'domestic':
-        return (
-          <form className={selectedOption === 'domestic' ? 'visible' : 'hidden'}>
-            <h2>Domestic Moving Form</h2>
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="From" required />
-            <input type="text" placeholder="To" required />
-            <input type="date" placeholder="Date" required />
-          </form>
+        return (<>
+          <h4 >Coming Soon</h4>
+          <p > Stay tuned as we bring you our comprehensive domestic moving services soon.</p>
+          </>
         );
       case 'office':
         return (
-          <form className={selectedOption === 'office' ? 'visible' : 'hidden'}>
-            <h2>Office Moving Form</h2>
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="From" required />
-            <input type="text" placeholder="To" required />
-            <input type="date" placeholder="Date" required />
-          </form>
+          <>
+          <h4 >Coming Soon</h4>
+          <p > Stay tuned as we bring you our comprehensive office moving services soon.</p>
+          </>
         );
       default:
         return null;
@@ -56,7 +47,7 @@ const   Forms = () => {
   };
 
   return (
-    <div className="quotes">
+    <div id='services' className="quotes">
       <h2 className="feature-header">Free Moving Quotes</h2>
           <p className="feature-sub-header">Take the stress out of your move. Get free quotes and find the most affordable price for your shifting needs today</p>
       <nav>
