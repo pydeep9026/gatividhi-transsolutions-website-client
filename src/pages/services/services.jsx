@@ -34,13 +34,14 @@ function Services() {
     style={{top:"10rem"}}
     />
       <div className="services-container">
-  <h1 style={{ textAlign: 'center' }}>Gatividhi Transport Solutions Services</h1>
+  <h2 style={{ textAlign: 'center' }}>Gatividhi Transport Solutions Services</h2>
+  <p className="HeroContentText">Our company provides a range of transport solutions services to cater to the diverse needs of our clients.</p>
   {Servicesdata.map(service => (
     <div className="service-indivisual" key={service.title} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h2 style={{ textAlign: 'center',marginTop:"3rem" }}>{service.title}</h2>
+      <h4 style={{ textAlign: 'center',marginTop:"3rem" }}>{service.title}</h4>
       <img src={service.image} alt={service.title} />
       <p className="centered-text" style={{ textAlign: 'center' }}>{service.description}</p>
-      <h4 style={{ textAlign: 'center',marginTop:"2rem" }}>Key Features</h4>
+      <h5 style={{ textAlign: 'center',marginTop:"2rem" }}>Key Features</h5>
       <div className="feature-cards" style={{ display: 'flex', justifyContent: 'center' }}>
         {service.features.map((feature, index) => (
           <div className="feature-card" key={index} style={{ textAlign: 'center', margin: '10px' }}>

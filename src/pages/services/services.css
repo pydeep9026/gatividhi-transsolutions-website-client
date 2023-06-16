@@ -10,7 +10,7 @@
   }
   
   .service-indivisual img {
-    max-width: 10%;
+    max-width: 7rem;
   }
   
   .service-indivisual h2 {
@@ -65,5 +65,9 @@
     .feature-card {
       width: 80%;
     }
+
+    .service-indivisual img {
+        max-width: 32%;
+      }
   }
   
