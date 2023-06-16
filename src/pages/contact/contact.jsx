@@ -39,17 +39,17 @@ function Contact() {
           <div className="contact-box">
             <img src={phonecontact} alt="phone" />
             <h3 className="box-heading">Phone</h3>
-            <a href="tel:{FooterData.phone1}"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone1}</p></a>
+            <a href="tel:+919026003602"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone1}</p></a>
           </div>
           <div className="contact-box">
             <img src={emailcontact} alt="email" />
             <h3 className="box-heading">Email</h3>
-            <a href="mailto:{FooterData.email}?subject=Inquiry%20about%20Transport%20Services&body=Dear%20Gatividhi%20Transsolution%20Pvt%20Ltd,%0D%0AI%20am%20reaching%20out%20to%20you%20regarding%20your%20transport%20services.%0D%0AI%20would%20like%20to%20inquire%20about%20the%20following:%0D%0A%0D%0A-%20Types%20of%20transport%20services%20you%20offer%0D%0A-%20Availability%20of%20transport%20routes%20and%20destinations%0D%0A-%20Pricing%20and%20payment%20options%0D%0A-%20Any%20additional%20services%20or%20features%20you%20provide%0D%0A%0D%0APlease%20provide%20me%20with%20the%20relevant%20information%20so%20that%20I%20can%20make%20an%20informed%20decision.%0D%0AThank%20you%20for%20your%20assistance.%0D%0A%0D%0ABest%20regards,%0D%0A[Your%20Name]"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.email}</p></a>
+            <a href="mailto:gatividhits@gmail.com?subject=Inquiry%20about%20Transport%20Services&body=Dear%20Gatividhi%20Transsolution%20Pvt%20Ltd,%0D%0AI%20am%20reaching%20out%20to%20you%20regarding%20your%20transport%20services.%0D%0AI%20would%20like%20to%20inquire%20about%20the%20following:%0D%0A%0D%0A-%20Types%20of%20transport%20services%20you%20offer%0D%0A-%20Availability%20of%20transport%20routes%20and%20destinations%0D%0A-%20Pricing%20and%20payment%20options%0D%0A-%20Any%20additional%20services%20or%20features%20you%20provide%0D%0A%0D%0APlease%20provide%20me%20with%20the%20relevant%20information%20so%20that%20I%20can%20make%20an%20informed%20decision.%0D%0AThank%20you%20for%20your%20assistance.%0D%0A%0D%0ABest%20regards,%0D%0A[Your%20Name]"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.email}</p></a>
           </div>
           <div className="contact-box">
             <img src={supportcontact} alt="support" />
             <h3 className="box-heading">Customer Support</h3>
-            <a href="tel:{FooterData.phone1}"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone2}</p></a>
+            <a href="tel:+919026003602"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone2}</p></a>
           </div>
         </div>
       </div>
