@@ -7,6 +7,8 @@ import Footer from '../../components/Footer/Footer'
 import './services.css'
 import  Servicesdata  from '../../data/Home/servicesdata'
 import { heroData } from '../../data/Home/HeroSectionData'
+import Button from '../../components/Button/Button'
+import { Link } from 'react-router-dom'
 
 /* <div className="trans-solutions">
       <h2>Services Offered</h2>
@@ -38,10 +40,13 @@ function Services() {
   <p className="HeroContentText">Our company provides a range of transport solutions services to cater to the diverse needs of our clients.</p>
   {Servicesdata.map(service => (
     <div className="service-indivisual" key={service.title} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h4 style={{ textAlign: 'center',marginTop:"3rem" }}>{service.title}</h4>
+      <h4 style={{ textAlign: 'center',marginTop:"3rem",fontSize:"1.7rem" }}>{service.title}</h4>
       <img src={service.image} alt={service.title} />
       <p className="centered-text" style={{ textAlign: 'center' }}>{service.description}</p>
-      <h5 style={{ textAlign: 'center',marginTop:"2rem" }}>Key Features</h5>
+      <Link to="/getquote">
+      <Button>Get Quote</Button>
+        </Link>
+      <h5 style={{ textAlign: 'center',marginTop:"1rem" }}>Key Features</h5>
       <div className="feature-cards" style={{ display: 'flex', justifyContent: 'center' }}>
         {service.features.map((feature, index) => (
           <div className="feature-card" key={index} style={{ textAlign: 'center', margin: '10px' }}>

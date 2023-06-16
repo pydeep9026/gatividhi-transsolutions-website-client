@@ -8,16 +8,15 @@ import { FooterData } from "../../data/Home/footerSectiondata";
 import { Usefullinks } from "../../data/Home/footerSectiondata";
 
 function Getquote() {
-  return (<>
+  return (<div>
     <Header 
     brandData={brandData}
     menuData={menuData}
     btnData={btnData}
     socialData={socialData}
-    style={{top:"10rem"}}
     />
-    <Forms />
-    <div style={{height:"9vh"}}></div>
+    <Forms    />
+    <div style={{height:"6vh"}}></div>
     <Footer
     brandData={brandData}
     menuData={menuData}
@@ -26,7 +25,7 @@ function Getquote() {
     footerData={FooterData}
     Usefullinks={Usefullinks}
     />
-    </>
+    </div>
   )
 }
 
