@@ -19,7 +19,7 @@ function Contact() {
     />
          <div className="contact-page">
       <header className="contact-header">
-        <h1>Contact Gatividhi TransSolutions pvt. ltd.</h1>
+        <h2>Contact Gatividhi TransSolutions pvt. ltd.</h2>
         <p className="HeroContentText">Please note that any information shared is kept confidential and used solely for communication purposes.</p>
       </header>
       <div className="contact-content">
@@ -28,19 +28,19 @@ function Contact() {
         <div className="contact-details">
           <div className="contact-box">
             <h3 className="box-heading">Address</h3>
-            <p>123 Main Street, City, Country</p>
+            <p>{FooterData.address}</p>
           </div>
           <div className="contact-box">
             <h3 className="box-heading">Phone</h3>
-            <p>+1 123-456-7890</p>
+            <p>{FooterData.phone1}</p>
           </div>
           <div className="contact-box">
             <h3 className="box-heading">Email</h3>
-            <p>info@transsolutions.com</p>
+            <p>{FooterData.email}</p>
           </div>
           <div className="contact-box">
             <h3 className="box-heading">Customer Support</h3>
-            <p>+1 987-654-3210</p>
+            <p>{FooterData.phone2}</p>
           </div>
         </div>
       </div>
