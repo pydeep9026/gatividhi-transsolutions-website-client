@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fc1eb27b.css",
-    "main.js": "/static/js/main.b974c005.js",
+    "main.js": "/static/js/main.ddcc9573.js",
     "static/media/competetivepricing.png": "/static/media/competetivepricing.111daaaf4e25715714b2.png",
-    "static/media/herotruck.png": "/static/media/herotruck.8c973f63581544229b5a.png",
-    "static/media/timelydelivery.png": "/static/media/timelydelivery.f1e80138c665c53fda0f.png",
-    "static/media/securetrans.png": "/static/media/securetrans.feb276696ec23c0e5db6.png",
-    "static/media/customizedservices.png": "/static/media/customizedservices.ce5ad101c4ae78741f4f.png",
-    "static/media/domesticmoving.png": "/static/media/domesticmoving.c89506b0fbf246d6eb47.png",
-    "static/media/commercialmoving.png": "/static/media/commercialmoving.c9aa6e6464e6fdf1b889.png",
-    "static/media/officemoving.png": "/static/media/officemoving.60e40ca5d3575c56e0fe.png",
-    "static/media/trainedlabour.png": "/static/media/trainedlabour.a6dc09fda288da7e01b8.png",
-    "static/media/fragilegoods.png": "/static/media/fragilegoods.f8eef25520714cd8c688.png",
-    "static/media/widerange.png": "/static/media/widerange.7ed9a5ea923af8e23f43.png",
-    "static/media/securepkg.png": "/static/media/securepkg.fb5fc88fdfd2d6a5c6bd.png",
+    "static/media/herotruck.png": "/static/media/herotruck.b67edccd2d2bba4440fb.png",
+    "static/media/securetrans.png": "/static/media/securetrans.65339d1f9824f260405e.png",
+    "static/media/customizedservices.png": "/static/media/customizedservices.560e4b2701091ad9b584.png",
     "static/media/gatividhi.png": "/static/media/gatividhi.73c112ec64a58149f166.png",
+    "static/media/trainedlabour.png": "/static/media/trainedlabour.b8b5de29ce5494a22d26.png",
+    "static/media/commercialmoving.png": "/static/media/commercialmoving.88a3d60db3a0f4631ecf.png",
+    "static/media/timelydelivery.png": "/static/media/timelydelivery.c33f1b91198d6d4d07e4.png",
+    "static/media/fragilegoods.png": "/static/media/fragilegoods.336783a5bcc8ceeb37c0.png",
+    "static/media/domesticmoving.png": "/static/media/domesticmoving.cb3affb25d81f5ccdd5d.png",
+    "static/media/officemoving.png": "/static/media/officemoving.b4a5509763a91363ce22.png",
+    "static/media/widerange.png": "/static/media/widerange.1db20b61900382aa4fa4.png",
+    "static/media/securepkg.png": "/static/media/securepkg.ab75b9fbbfd19c37b4bd.png",
     "static/media/addresscontact.png": "/static/media/addresscontact.8b424e659e80f857510f.png",
     "static/media/phonecontact.png": "/static/media/phonecontact.d7a7b61c0cc571e27f36.png",
     "static/media/emailcontact.png": "/static/media/emailcontact.ae6fc4fde00bab8603d4.png",
@@ -25,10 +25,10 @@
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg",
     "static/media/bg-pattern.svg": "/static/media/bg-pattern.5749a640ca543ef80af7.svg",
     "main.fc1eb27b.css.map": "/static/css/main.fc1eb27b.css.map",
-    "main.b974c005.js.map": "/static/js/main.b974c005.js.map"
+    "main.ddcc9573.js.map": "/static/js/main.ddcc9573.js.map"
   },
   "entrypoints": [
     "static/css/main.fc1eb27b.css",
-    "static/js/main.b974c005.js"
+    "static/js/main.ddcc9573.js"
   ]
 }
