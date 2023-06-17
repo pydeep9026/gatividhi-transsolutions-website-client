@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.fc1eb27b.css",
-    "main.js": "/static/js/main.ddcc9573.js",
+    "main.js": "/static/js/main.54cee0d2.js",
     "static/media/competetivepricing.png": "/static/media/competetivepricing.111daaaf4e25715714b2.png",
-    "static/media/herotruck.png": "/static/media/herotruck.b67edccd2d2bba4440fb.png",
-    "static/media/securetrans.png": "/static/media/securetrans.65339d1f9824f260405e.png",
-    "static/media/customizedservices.png": "/static/media/customizedservices.560e4b2701091ad9b584.png",
+    "static/media/securetrans.png": "/static/media/securetrans.7b58f312171515c6f97c.png",
+    "static/media/customizedservices.png": "/static/media/customizedservices.9f6b5439eec2efd307b7.png",
+    "static/media/herotruck.png": "/static/media/herotruck.19257baa88d0b52d8e84.png",
     "static/media/gatividhi.png": "/static/media/gatividhi.73c112ec64a58149f166.png",
     "static/media/trainedlabour.png": "/static/media/trainedlabour.b8b5de29ce5494a22d26.png",
     "static/media/commercialmoving.png": "/static/media/commercialmoving.88a3d60db3a0f4631ecf.png",
@@ -25,10 +25,10 @@
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg",
     "static/media/bg-pattern.svg": "/static/media/bg-pattern.5749a640ca543ef80af7.svg",
     "main.fc1eb27b.css.map": "/static/css/main.fc1eb27b.css.map",
-    "main.ddcc9573.js.map": "/static/js/main.ddcc9573.js.map"
+    "main.54cee0d2.js.map": "/static/js/main.54cee0d2.js.map"
   },
   "entrypoints": [
     "static/css/main.fc1eb27b.css",
-    "static/js/main.ddcc9573.js"
+    "static/js/main.54cee0d2.js"
   ]
 }
