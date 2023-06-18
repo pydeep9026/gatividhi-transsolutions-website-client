@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
 import "./FeatureSection.css";
+import { Link } from "react-router-dom";
 
 const FeatureSection = ({ featureData }) => {
   const [clicked, setClicked] = useState(0);
@@ -47,7 +48,9 @@ const FeatureSection = ({ featureData }) => {
                   <p className="feature-content-sub-header">
                     {feature.description}
                   </p>
+                  <Link to={feature.btnLink}>
                   <Button>{feature.btnText}</Button>
+                  </Link>
                 </div>
               </div>
             </div>

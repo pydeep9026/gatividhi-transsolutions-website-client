@@ -15,7 +15,7 @@ export const featureData = {
       description:
         "At our company, we understand that every customer has unique requirements and preferences. That's why we offer a wide range of customized services to cater to your specific needs.",
       btnText: "More Info",
-      bntLink: "/",
+      btnLink: "/services",
     },
     {
       image: competetivepricing,
@@ -24,7 +24,7 @@ export const featureData = {
       description:
         "In today's competitive business landscape, pricing plays a crucial role in determining your success. At our company, we recognize the significance of offering competitive prices that give you an advantage in the market.",
       btnText: "More Info",
-      bntLink: "/",
+      btnLink: "/services",
     },
     {
       image: securetrans,
@@ -33,7 +33,7 @@ export const featureData = {
       description:
         " When it comes to transporting your valuable goods or assets, safety and reliability are paramount. Our company takes great pride in providing secure transportation services that you can trust.",
       btnText: "More Info",
-      bntLink: "/",
+      btnLink: "/services",
     },
   ],
 };
