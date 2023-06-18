@@ -13,6 +13,7 @@ import { ProgressBar, Step } from "react-step-progress-bar";
 import logoPrimary from "../../assets/images/gatividhi.png";
 import paymentprocess from "../../assets/images/paymentprocess.png";
 import toast, { Toaster } from 'react-hot-toast';
+import { AiOutlineComment } from 'react-icons/ai';
 
 
 
@@ -21,6 +22,8 @@ function Payment() {
   const navigate = useNavigate();
   const [numberType, setNumberType] = useState('');
   const [number, setNumber] = useState('');
+
+
 
   const handleNumberTypeChange = (event) => {
     setNumberType(event.target.value);
@@ -39,7 +42,6 @@ function Payment() {
     else if(number === '') {
       toast.error('Please enter a payment reference number');
     }
-    // Redirect to payment gateway using the submitted number
     /*navigate(`/payment?numberType=${numberType}&number=${number}`);*/
     else{
     toast.error('this payment reference number does not exist');
@@ -52,6 +54,7 @@ function Payment() {
   return (
     <>
     <Toaster />
+
         <Header 
     brandData={brandData}
     menuData={menuData}

@@ -8,10 +8,15 @@ import Services from "./pages/services/services";
 import Contact from "./pages/contact/contact";
 import { Toaster,toast } from "react-hot-toast";
 import FeedbackButton from 'react-feedback-button';
+import { AiOutlineComment } from "react-icons/ai";
 
 const App = () => {
 
-  useEffect(() => {
+  const handleClick = () => {
+    window.open('https://form.typeform.com/to/DDBKQLyv', '_blank');
+  };
+
+  /*useEffect(() => {
     document.addEventListener('contextmenu', handleContextMenu);
     return () => {
       document.removeEventListener('contextmenu', handleContextMenu);
@@ -20,10 +25,14 @@ const App = () => {
   const handleContextMenu = (event) => {
     event.preventDefault();
     toast.error("right disabled due to security reasons");
-  }
+  }*/
 
   return (<>
   <Toaster/>
+  <button onClick={handleClick} className="feedback-button">
+      feedback
+      <AiOutlineComment />
+    </button>
           <GlobalStyles />
       <Routes>
         <Route path="/" element={<Home />} />

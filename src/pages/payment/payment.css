@@ -4,6 +4,38 @@
     padding: 20px;
     text-align: center;
   }
+
+  .feedback-button {
+    position: fixed;
+    bottom: 31rem;
+    right: -7rem;
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: #D52D27;
+    border: none;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.feedback-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-button:active {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95) translate(-50%, -50%) rotate(-90deg);
+  transition: transform 0.1s ease-in-out;
+}
+  
+  
   
  
   
