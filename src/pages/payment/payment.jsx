@@ -62,57 +62,10 @@ function Payment() {
         <div className="container">
 
         <h2 className="HeroContentHeader">Seamless Payment Experience</h2>
-        <p className="HeroContentText">Swiftly complete your payment on our transport solutions website by entering your Goods Consignment Number, Goods Receipt Number, or E-Way Bill Number. Follow our simple steps to ensure a smooth payment experience.</p>
-        <ProgressBar
-  filledBackground="linear-gradient(to right, #0154A0, #D52D27)"
-  percent={25}
->
-  <Step transition="scale">
-    {({ accomplished, index }) => (
-      <div
-        className={`transitionStep ${accomplished ? "accomplished" : null}`}
-      >
-      </div>
-    )}
-  </Step>
-  <Step transition="scale">
-    {({ accomplished, index }) => (
-      <div
-        className={`transitionStep ${accomplished ? "accomplished" : null}`}
-      >
-        <img src={logoPrimary} alt="logo" style={{width:"4rem"}}/>
-      </div>
-    )}
-  </Step>
-  <Step transition="scale">
-    {({ accomplished, index }) => (
-      <div
-        className={`transitionStep ${accomplished ? "accomplished" : null}`}
-      >
-        <img src={logoPrimary} alt="logo" style={{width:"4rem"}}/>
-      </div>
-    )}
-  </Step>
-  <Step transition="scale">
-    {({ accomplished, index }) => (
-      <div
-        className={`transitionStep ${accomplished ? "accomplished" : null}`}
-      >
-       <img src={logoPrimary} alt="logo" style={{width:"4rem"}}/>
-      </div>
-    )}
-  </Step>
-  <Step transition="scale">
-    {({ accomplished, index }) => (
-      <div
-        className={`transitionStep ${accomplished ? "accomplished" : null}`}
-      >
-       <img src={logoPrimary} alt="logo" style={{width:"4rem"}}/>
-      </div>
-    )}
-  </Step>
-</ProgressBar>
-      <form onSubmit={handleSubmit} style={{marginTop:"4rem"}}>
+        <p className="HeroContentText">Follow our simple steps to ensure a smooth payment experience.</p>
+        <h4>Step 1: provide payment reference number</h4>
+        <p>Enter your Goods Consignment Number, Goods Receipt Number, or E-Way Bill Number to fetch your consignment details.</p>
+      <form onSubmit={handleSubmit} style={{marginTop:"2rem"}}>
         <h4 style={{marginBottom:"2rem"}}>fetch your consignment details</h4>
         <label htmlFor="numberType">Payment Reference Number Type:</label>
         <select id="numberType" value={numberType} onChange={handleNumberTypeChange}>
@@ -125,7 +78,7 @@ function Payment() {
         <input type="text" id="number" placeholder='payment reference number' value={number} onChange={handleNumberChange} />
         <Button type="submit">Submit</Button>
       </form>
-      <img src={paymentprocess} alt="paymentprocess" style={{width:"100%",marginTop:"4rem"}}/>
+      <img src={paymentprocess} alt="paymentprocess" style={{width:"100%",marginTop:"2.5rem"}}/>
     </div>
 
         <Footer

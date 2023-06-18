@@ -86,14 +86,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    align-items: center;
+    gap: 0.5rem;
   }
   
-  button {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-  }
+
   
   
   

@@ -11,10 +11,54 @@ import phonecontact from '../../assets/images/phonecontact.png'
 import emailcontact from '../../assets/images/emailcontact.png'
 import supportcontact from '../../assets/images/supportcontact.png'
 import { color } from 'echarts'
+import {toast,Toaster} from 'react-hot-toast'
+import { Link } from 'react-router-dom'
 
 function Contact() {
+
+  const submitform = (event) => {
+    event.preventDefault();
+  
+
+    const fullName = event.target.fullname.value;
+    const email = event.target.email.value;
+    const message = event.target.message.value;
+  
+
+    let isValid = true;
+  
+    if (fullName.trim() === '') {
+      isValid = false;
+    }
+  
+    if (email.trim() === '' || !validateEmail(email)) {
+      isValid = false;
+
+    }
+  
+    if (message.trim() === '') {
+      isValid = false;
+      
+    }
+  
+    if (isValid) {
+      
+      toast.error('this feature is still in development');
+    } else {
+      toast.error('Please fill in all required fields correctly');
+    }
+  };
+  
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+    return emailRegex.test(email);
+  };
+  
+
   return (
     <>
+    <Toaster />
         <Header 
     brandData={brandData}
     menuData={menuData}
@@ -56,15 +100,15 @@ function Contact() {
       <div className="contact-form">
         <h2 className="subheader">Contact Us</h2>
         <p className="HeroContentText">Provide your name, email address, and a message, and we will respond to you as soon as possible.</p>
-        <form>
+        <form  onSubmit={submitform}>
           <div className="form-group">
-            <input type="text" placeholder='fullname' id="fullname" />
+            <input type="text" placeholder='fullname' name="fullname" />
           </div>
           <div className="form-group">
-            <input placeholder='email' type="email" id="email" />
+            <input placeholder='email' type="email" name="email" />
           </div>
           <div className="form-group">
-            <textarea placeholder='message' id="message"></textarea>
+            <textarea placeholder='message' name="message"></textarea>
           </div>
           <Button type="submit" className="submit-button">
             Submit
@@ -75,9 +119,12 @@ function Contact() {
             <p className="HeroContentText">Choose the Appropriate Option Below to File a Complaint, Provide Feedback, or Make a General Inquiry
 </p>
       <div className="contact-buttons">
-        <Button primary blocked spaced className="complaint-button">Complaint</Button>
-        <Button blocked  secondary spaced className="feedback-button">Provide Feedback</Button>
-        <Button blocked  secondary spaced className="enquiry-button">General Inquiry</Button>
+        <Link to="https://form.typeform.com/to/ThXDQ2j7">
+        <Button primary blocked spaced className="complaint-button">Complaint</Button></Link>
+        <Link to="https://form.typeform.com/to/DDBKQLyv">
+        <Button blocked  secondary spaced className="feedback-button">Provide Feedback</Button></Link>
+        <Link to="/getquote">
+        <Button blocked  secondary spaced className="enquiry-button">General Inquiry</Button></Link>
       </div>
     </div>
 

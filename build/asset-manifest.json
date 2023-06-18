@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc1eb27b.css",
-    "main.js": "/static/js/main.54cee0d2.js",
+    "main.css": "/static/css/main.eeee80f5.css",
+    "main.js": "/static/js/main.01f08bf2.js",
     "static/media/competetivepricing.png": "/static/media/competetivepricing.111daaaf4e25715714b2.png",
     "static/media/securetrans.png": "/static/media/securetrans.7b58f312171515c6f97c.png",
     "static/media/customizedservices.png": "/static/media/customizedservices.9f6b5439eec2efd307b7.png",
@@ -9,6 +9,7 @@
     "static/media/gatividhi.png": "/static/media/gatividhi.73c112ec64a58149f166.png",
     "static/media/trainedlabour.png": "/static/media/trainedlabour.b8b5de29ce5494a22d26.png",
     "static/media/commercialmoving.png": "/static/media/commercialmoving.88a3d60db3a0f4631ecf.png",
+    "static/media/paymentprocess.png": "/static/media/paymentprocess.2a1ab5ae5ecc1f635b99.png",
     "static/media/timelydelivery.png": "/static/media/timelydelivery.c33f1b91198d6d4d07e4.png",
     "static/media/fragilegoods.png": "/static/media/fragilegoods.336783a5bcc8ceeb37c0.png",
     "static/media/domesticmoving.png": "/static/media/domesticmoving.cb3affb25d81f5ccdd5d.png",
@@ -24,11 +25,11 @@
     "static/media/icon-twitter.svg": "/static/media/icon-twitter.b47fa15c589d3686dece203533467d46.svg",
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg",
     "static/media/bg-pattern.svg": "/static/media/bg-pattern.5749a640ca543ef80af7.svg",
-    "main.fc1eb27b.css.map": "/static/css/main.fc1eb27b.css.map",
-    "main.54cee0d2.js.map": "/static/js/main.54cee0d2.js.map"
+    "main.eeee80f5.css.map": "/static/css/main.eeee80f5.css.map",
+    "main.01f08bf2.js.map": "/static/js/main.01f08bf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1eb27b.css",
-    "static/js/main.54cee0d2.js"
+    "static/css/main.eeee80f5.css",
+    "static/js/main.01f08bf2.js"
   ]
 }

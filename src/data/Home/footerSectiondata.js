@@ -8,7 +8,7 @@ export const FooterData = {
     footertitle2:"Useful Links",
     footertitle3:"Contact Us",
     address:"Gomtinagar, Lucknow, uttar pradesh, India",
-    email:"gatividhits@gmail.com",
+    email:"support@gatividhits.com",
     phone1:"+919026003602",
     phone2:"+919026003602",
     copyright:"© 2023 Gatividhi transsolutions pvt. ltd. All rights reserved."
@@ -24,11 +24,11 @@ export const Usefullinks = [
     {
       id: 2,
       title: "complaint",
-      link: "/complaint",
+      link: "https://form.typeform.com/to/ThXDQ2j7",
     },
     {
       id: 3,
       title: "feedback",
-      link: "/feedback",
+      link: "https://form.typeform.com/to/DDBKQLyv",
     },
   ];
