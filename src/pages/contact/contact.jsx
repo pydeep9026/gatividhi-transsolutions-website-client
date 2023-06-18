@@ -58,16 +58,13 @@ function Contact() {
         <p className="HeroContentText">Provide your name, email address, and a message, and we will respond to you as soon as possible.</p>
         <form>
           <div className="form-group">
-            <label htmlFor="fullname">Full Name</label>
-            <input type="text" id="fullname" />
+            <input type="text" placeholder='fullname' id="fullname" />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email</label>
-            <input type="email" id="email" />
+            <input placeholder='email' type="email" id="email" />
           </div>
           <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea id="message"></textarea>
+            <textarea placeholder='message' id="message"></textarea>
           </div>
           <Button type="submit" className="submit-button">
             Submit

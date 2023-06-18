@@ -25,7 +25,8 @@ const Home = () => {
       />
       <Main>
         <HeroSection heroData={heroData} />
-        <Forms />
+        <div style={{marginTop:"5rem"}}></div>
+        <Forms  />
         <FeatureSection featureData={featureData} />
         <FaqSection faqData={faqData} />
       </Main>

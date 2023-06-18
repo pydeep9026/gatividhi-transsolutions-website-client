@@ -5,23 +5,7 @@
     text-align: center;
   }
   
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  nav ul li {
-    display: inline;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    padding: 10px;
-    color: #333;
-  }
+ 
   
   form {
     margin-top: 20px;

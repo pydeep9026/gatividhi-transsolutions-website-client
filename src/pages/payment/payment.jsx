@@ -12,6 +12,7 @@ import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
 import logoPrimary from "../../assets/images/gatividhi.png";
 import paymentprocess from "../../assets/images/paymentprocess.png";
+import toast, { Toaster } from 'react-hot-toast';
 
 
 
@@ -31,8 +32,18 @@ function Payment() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if(numberType === '') {
+      toast.error('Please select a payment reference number type');
+      return;
+    }
+    else if(number === '') {
+      toast.error('Please enter a payment reference number');
+    }
     // Redirect to payment gateway using the submitted number
     /*navigate(`/payment?numberType=${numberType}&number=${number}`);*/
+    else{
+    toast.error('this payment reference number does not exist');
+    }
   };
 
 
@@ -40,6 +51,7 @@ function Payment() {
 
   return (
     <>
+    <Toaster />
         <Header 
     brandData={brandData}
     menuData={menuData}
@@ -101,15 +113,16 @@ function Payment() {
   </Step>
 </ProgressBar>
       <form onSubmit={handleSubmit} style={{marginTop:"4rem"}}>
-        <label htmlFor="numberType">Number Type:</label>
+        <h4 style={{marginBottom:"2rem"}}>fetch your consignment details</h4>
+        <label htmlFor="numberType">Payment Reference Number Type:</label>
         <select id="numberType" value={numberType} onChange={handleNumberTypeChange}>
           <option value="">Select Number Type</option>
           <option value="consignment">Consignment No</option>
           <option value="goodsreceipt">Goods Receipt No</option>
           <option value="waybill">Waybill No</option>
         </select>
-        <label htmlFor="number">Number:</label>
-        <input type="text" id="number" value={number} onChange={handleNumberChange} />
+        
+        <input type="text" id="number" placeholder='payment reference number' value={number} onChange={handleNumberChange} />
         <Button type="submit">Submit</Button>
       </form>
       <img src={paymentprocess} alt="paymentprocess" style={{width:"100%",marginTop:"4rem"}}/>

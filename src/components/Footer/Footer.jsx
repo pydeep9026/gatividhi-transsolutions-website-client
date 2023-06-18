@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 export default function Footer({brandData,socialData,menuData,footerData,Usefullinks}) {
 
@@ -38,9 +39,9 @@ export default function Footer({brandData,socialData,menuData,footerData,Usefull
               <h4 className='footer-title'>{footerData.footertitle1}</h4>
               {menuData.map((menu) => {
                 return (
-                  <div className='footer-link' to={menu.link} key={menu.id}>
+                  <Link Link className='footer-link' to={menu.link} key={menu.id}>
                     {menu.title}
-                  </div>
+                  </Link>
                 );
               })}
             </div>
@@ -49,9 +50,9 @@ export default function Footer({brandData,socialData,menuData,footerData,Usefull
               <h4 className='footer-title'>{footerData.footertitle2}</h4>
               {Usefullinks.map((menu) => {
                 return (
-                  <div className='footer-link' to={menu.link} key={menu.id}>
+                  <Link className='footer-link' to={menu.link} key={menu.id}>
                     {menu.title}
-                  </div>
+                  </Link>
                 );
               })}
             </div>

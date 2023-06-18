@@ -1,6 +1,6 @@
 .quotes {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: -1rem;
   }
   
   nav {
@@ -24,9 +24,16 @@
   }
   
   nav li a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     color: #000;
     text-decoration: none;
+
+  }
+
+  nav ul li a img{
+    width: 30px;
+    height: 30px;
   }
   
   nav li.selected {
