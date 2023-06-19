@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom'
 function Contact() {
 
   const submitform = (event) => {
-    event.preventDefault();
+     event.preventDefault();
   
 
     const fullName = event.target.fullname.value;
