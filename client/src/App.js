@@ -7,7 +7,6 @@ import Payment from "./pages/payment/payment";
 import Services from "./pages/services/services";
 import Contact from "./pages/contact/contact";
 import { Toaster,toast } from "react-hot-toast";
-import FeedbackButton from 'react-feedback-button';
 import { AiOutlineComment } from "react-icons/ai";
 
 const App = () => {

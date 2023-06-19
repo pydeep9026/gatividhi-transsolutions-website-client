@@ -10,7 +10,6 @@ import addresscontact from '../../assets/images/addresscontact.png'
 import phonecontact from '../../assets/images/phonecontact.png'
 import emailcontact from '../../assets/images/emailcontact.png'
 import supportcontact from '../../assets/images/supportcontact.png'
-import { color } from 'echarts'
 import {toast,Toaster} from 'react-hot-toast'
 import { Link } from 'react-router-dom'
 
