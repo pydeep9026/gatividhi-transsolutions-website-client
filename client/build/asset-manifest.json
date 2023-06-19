@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.180cacaa.css",
+    "main.js": "/static/js/main.9c21fea4.js",
+    "static/media/competetivepricing.png": "/static/media/competetivepricing.111daaaf4e25715714b2.png",
+    "static/media/securetrans.png": "/static/media/securetrans.7b58f312171515c6f97c.png",
+    "static/media/customizedservices.png": "/static/media/customizedservices.9f6b5439eec2efd307b7.png",
+    "static/media/herotruck.png": "/static/media/herotruck.19257baa88d0b52d8e84.png",
+    "static/media/gatividhi.png": "/static/media/gatividhi.73c112ec64a58149f166.png",
+    "static/media/trainedlabour.png": "/static/media/trainedlabour.b8b5de29ce5494a22d26.png",
+    "static/media/commercialmoving.png": "/static/media/commercialmoving.88a3d60db3a0f4631ecf.png",
+    "static/media/paymentprocess.png": "/static/media/paymentprocess.2a1ab5ae5ecc1f635b99.png",
+    "static/media/timelydelivery.png": "/static/media/timelydelivery.c33f1b91198d6d4d07e4.png",
+    "static/media/fragilegoods.png": "/static/media/fragilegoods.336783a5bcc8ceeb37c0.png",
+    "static/media/domesticmoving.png": "/static/media/domesticmoving.cb3affb25d81f5ccdd5d.png",
+    "static/media/officemoving.png": "/static/media/officemoving.b4a5509763a91363ce22.png",
+    "static/media/widerange.png": "/static/media/widerange.1db20b61900382aa4fa4.png",
+    "static/media/securepkg.png": "/static/media/securepkg.ab75b9fbbfd19c37b4bd.png",
+    "static/media/addresscontact.png": "/static/media/addresscontact.8b424e659e80f857510f.png",
+    "static/media/phonecontact.png": "/static/media/phonecontact.d7a7b61c0cc571e27f36.png",
+    "static/media/emailcontact.png": "/static/media/emailcontact.ae6fc4fde00bab8603d4.png",
+    "static/media/supportcontact.png": "/static/media/supportcontact.8da824faecc5a5e92a97.png",
+    "index.html": "/index.html",
+    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.8ace592c61d694c13052a10606081af5.svg",
+    "static/media/icon-twitter.svg": "/static/media/icon-twitter.b47fa15c589d3686dece203533467d46.svg",
+    "static/media/icon-facebook.svg": "/static/media/icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg",
+    "static/media/bg-pattern.svg": "/static/media/bg-pattern.5749a640ca543ef80af7.svg",
+    "main.180cacaa.css.map": "/static/css/main.180cacaa.css.map",
+    "main.9c21fea4.js.map": "/static/js/main.9c21fea4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.180cacaa.css",
+    "static/js/main.9c21fea4.js"
+  ]
+}
