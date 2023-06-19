@@ -1,0 +1,127 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-06-19 15:09:37
+count workspace : c:\Users\prade\gatividhi
+total files : 101
+total code lines : 36549
+total comment lines : 124
+total blank lines : 380
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |              2|              0|              0| 0.0055|
+   |          .json|          34268|              0|             14|     94|
+   |            .md|              0|              0|              1|    0.0|
+   |           .txt|              6|             84|              8|  0.016|
+   |          .html|             53|              7|              3|   0.15|
+   |            .js|            578|             17|             73|    1.6|
+   |           .svg|             14|              0|              0|  0.038|
+   |           .jsx|            760|             14|             99|    2.1|
+   |           .map|              2|              0|              0| 0.0055|
+   |           .css|            866|              2|            182|    2.4|
+   -------------------------------------------------------------------------
+.env, code is 1, comment is 0, blank is 0.
+.gitignore, code is 1, comment is 0, blank is 0.
+build\asset-manifest.json, code is 34, comment is 0, blank is 1.
+build\favicon.ico.png, it is a binary file.
+build\index.html, code is 1, comment is 0, blank is 0.
+build\manifest.json, code is 25, comment is 0, blank is 0.
+build\robots.txt, code is 3, comment is 1, blank is 0.
+build\static\css\main.180cacaa.css, code is 1, comment is 1, blank is 0.
+build\static\css\main.180cacaa.css.map, code is 1, comment is 0, blank is 0.
+build\static\js\main.2636aa06.js, code is 1, comment is 3, blank is 0.
+build\static\js\main.2636aa06.js.LICENSE.txt, code is 0, comment is 82, blank is 8.
+build\static\js\main.2636aa06.js.map, code is 1, comment is 0, blank is 0.
+build\static\media\addresscontact.8b424e659e80f857510f.png, it is a binary file.
+build\static\media\bg-pattern.5749a640ca543ef80af7.svg, code is 3, comment is 0, blank is 0.
+build\static\media\commercialmoving.88a3d60db3a0f4631ecf.png, it is a binary file.
+build\static\media\competetivepricing.111daaaf4e25715714b2.png, it is a binary file.
+build\static\media\customizedservices.9f6b5439eec2efd307b7.png, it is a binary file.
+build\static\media\domesticmoving.cb3affb25d81f5ccdd5d.png, it is a binary file.
+build\static\media\emailcontact.ae6fc4fde00bab8603d4.png, it is a binary file.
+build\static\media\fragilegoods.336783a5bcc8ceeb37c0.png, it is a binary file.
+build\static\media\gatividhi.73c112ec64a58149f166.png, it is a binary file.
+build\static\media\herotruck.19257baa88d0b52d8e84.png, it is a binary file.
+build\static\media\icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg, code is 1, comment is 0, blank is 0.
+build\static\media\icon-linkedin.8ace592c61d694c13052a10606081af5.svg, code is 1, comment is 0, blank is 0.
+build\static\media\icon-twitter.b47fa15c589d3686dece203533467d46.svg, code is 1, comment is 0, blank is 0.
+build\static\media\officemoving.b4a5509763a91363ce22.png, it is a binary file.
+build\static\media\paymentprocess.2a1ab5ae5ecc1f635b99.png, it is a binary file.
+build\static\media\phonecontact.d7a7b61c0cc571e27f36.png, it is a binary file.
+build\static\media\securepkg.ab75b9fbbfd19c37b4bd.png, it is a binary file.
+build\static\media\securetrans.7b58f312171515c6f97c.png, it is a binary file.
+build\static\media\supportcontact.8da824faecc5a5e92a97.png, it is a binary file.
+build\static\media\timelydelivery.c33f1b91198d6d4d07e4.png, it is a binary file.
+build\static\media\trainedlabour.b8b5de29ce5494a22d26.png, it is a binary file.
+build\static\media\widerange.1db20b61900382aa4fa4.png, it is a binary file.
+package-lock.json, code is 34101, comment is 0, blank is 10.
+package.json, code is 83, comment is 0, blank is 3.
+public\favicon.ico.png, it is a binary file.
+public\index.html, code is 52, comment is 7, blank is 3.
+public\manifest.json, code is 25, comment is 0, blank is 0.
+public\robots.txt, code is 3, comment is 1, blank is 0.
+README.md, code is 0, comment is 0, blank is 1.
+src\App.js, code is 43, comment is 0, blank is 7.
+src\assets\images\addresscontact.png, it is a binary file.
+src\assets\images\bg-pattern.svg, code is 3, comment is 0, blank is 0.
+src\assets\images\commercialmoving.png, it is a binary file.
+src\assets\images\competetivepricing.png, it is a binary file.
+src\assets\images\customizedservices.png, it is a binary file.
+src\assets\images\domesticmoving.png, it is a binary file.
+src\assets\images\emailcontact.png, it is a binary file.
+src\assets\images\fragilegoods.png, it is a binary file.
+src\assets\images\gatividhi.png, it is a binary file.
+src\assets\images\herotruck.png, it is a binary file.
+src\assets\images\icon-close.svg, code is 1, comment is 0, blank is 0.
+src\assets\images\icon-facebook.svg, code is 1, comment is 0, blank is 0.
+src\assets\images\icon-hamburger.svg, code is 1, comment is 0, blank is 0.
+src\assets\images\icon-linkedin.svg, code is 1, comment is 0, blank is 0.
+src\assets\images\icon-twitter.svg, code is 1, comment is 0, blank is 0.
+src\assets\images\officemoving.png, it is a binary file.
+src\assets\images\paymentprocess.png, it is a binary file.
+src\assets\images\phonecontact.png, it is a binary file.
+src\assets\images\securepkg.png, it is a binary file.
+src\assets\images\securetrans.png, it is a binary file.
+src\assets\images\supportcontact.png, it is a binary file.
+src\assets\images\timelydelivery.png, it is a binary file.
+src\assets\images\trainedlabour.png, it is a binary file.
+src\assets\images\widerange.png, it is a binary file.
+src\components\Button\Button.js, code is 19, comment is 0, blank is 4.
+src\components\Button\ButtonStyles.js, code is 73, comment is 0, blank is 11.
+src\components\FaqSection\faq.css, code is 53, comment is 0, blank is 13.
+src\components\FaqSection\FaqSection.jsx, code is 64, comment is 0, blank is 6.
+src\components\FeatureSection\FeatureSection.css, code is 138, comment is 0, blank is 24.
+src\components\FeatureSection\FeatureSection.jsx, code is 59, comment is 0, blank is 5.
+src\components\Footer\Footer.css, code is 79, comment is 1, blank is 18.
+src\components\Footer\Footer.jsx, code is 85, comment is 0, blank is 12.
+src\components\Header\config\config.js, code is 0, comment is 0, blank is 0.
+src\components\Header\Header.css, code is 138, comment is 0, blank is 26.
+src\components\Header\Header.jsx, code is 74, comment is 0, blank is 7.
+src\components\HeroSection\HeroSection.css, code is 130, comment is 0, blank is 25.
+src\components\HeroSection\HeroSection.jsx, code is 32, comment is 0, blank is 4.
+src\components\quoteforms\forms.css, code is 97, comment is 0, blank is 20.
+src\components\quoteforms\forms.jsx, code is 113, comment is 0, blank is 19.
+src\data\global\brandData.js, code is 5, comment is 0, blank is 2.
+src\data\global\menuData.js, code is 44, comment is 0, blank is 4.
+src\data\Home\DownloadSectionData.js, code is 37, comment is 0, blank is 2.
+src\data\Home\FaqSectionData.js, code is 36, comment is 0, blank is 0.
+src\data\Home\FeatureSectionData.js, code is 38, comment is 0, blank is 1.
+src\data\Home\footerSectiondata.js, code is 29, comment is 0, blank is 5.
+src\data\Home\HeroSectionData.js, code is 16, comment is 0, blank is 1.
+src\data\Home\paymentdata.js, code is 26, comment is 0, blank is 1.
+src\data\Home\servicesdata.js, code is 82, comment is 1, blank is 3.
+src\helpers\MediaQueries.js, code is 16, comment is 0, blank is 1.
+src\index.js, code is 12, comment is 0, blank is 1.
+src\pages\contact\contact.css, code is 111, comment is 0, blank is 29.
+src\pages\contact\contact.jsx, code is 124, comment is 0, blank is 19.
+src\pages\getquote\Getquote.jsx, code is 30, comment is 0, blank is 2.
+src\pages\Home\Home.jsx, code is 43, comment is 0, blank is 2.
+src\pages\payment\payment.css, code is 61, comment is 0, blank is 13.
+src\pages\payment\payment.jsx, code is 80, comment is 1, blank is 18.
+src\pages\services\services.css, code is 58, comment is 0, blank is 14.
+src\pages\services\services.jsx, code is 56, comment is 13, blank is 5.
+src\styles\GlobalStyles.js, code is 101, comment is 13, blank is 30.
+===============================================================================

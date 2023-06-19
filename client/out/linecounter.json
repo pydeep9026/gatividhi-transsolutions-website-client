@@ -1,0 +1,713 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\prade\\gatividhi",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2023-06-19 15:09:37",
+            "filesum": 101,
+            "codesum": 36549,
+            "commentsum": 124,
+            "blanksum": 380,
+            "statistics": {
+                "": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 34268,
+                    "comment": 0,
+                    "blank": 14
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 84,
+                    "blank": 8
+                },
+                ".html": {
+                    "code": 53,
+                    "comment": 7,
+                    "blank": 3
+                },
+                ".js": {
+                    "code": 578,
+                    "comment": 17,
+                    "blank": 73
+                },
+                ".svg": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".jsx": {
+                    "code": 760,
+                    "comment": 14,
+                    "blank": 99
+                },
+                ".map": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 866,
+                    "comment": 2,
+                    "blank": 182
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "build\\asset-manifest.json"
+                },
+                {
+                    "filename": "build\\favicon.ico.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "build\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "build\\robots.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "build\\static\\css\\main.180cacaa.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\css\\main.180cacaa.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "build\\static\\js\\main.2636aa06.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 0,
+                    "comment": 82,
+                    "filename": "build\\static\\js\\main.2636aa06.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\main.2636aa06.js.map"
+                },
+                {
+                    "filename": "build\\static\\media\\addresscontact.8b424e659e80f857510f.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "build\\static\\media\\bg-pattern.5749a640ca543ef80af7.svg"
+                },
+                {
+                    "filename": "build\\static\\media\\commercialmoving.88a3d60db3a0f4631ecf.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\competetivepricing.111daaaf4e25715714b2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\customizedservices.9f6b5439eec2efd307b7.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\domesticmoving.cb3affb25d81f5ccdd5d.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\emailcontact.ae6fc4fde00bab8603d4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\fragilegoods.336783a5bcc8ceeb37c0.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\gatividhi.73c112ec64a58149f166.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\herotruck.19257baa88d0b52d8e84.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\media\\icon-facebook.7989af0cc8d4e0b3af01f75687ec1fe3.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\media\\icon-linkedin.8ace592c61d694c13052a10606081af5.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\media\\icon-twitter.b47fa15c589d3686dece203533467d46.svg"
+                },
+                {
+                    "filename": "build\\static\\media\\officemoving.b4a5509763a91363ce22.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\paymentprocess.2a1ab5ae5ecc1f635b99.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\phonecontact.d7a7b61c0cc571e27f36.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\securepkg.ab75b9fbbfd19c37b4bd.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\securetrans.7b58f312171515c6f97c.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\supportcontact.8da824faecc5a5e92a97.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\timelydelivery.c33f1b91198d6d4d07e4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\trainedlabour.b8b5de29ce5494a22d26.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\static\\media\\widerange.1db20b61900382aa4fa4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 10,
+                    "code": 34101,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public\\favicon.ico.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 52,
+                    "comment": 7,
+                    "filename": "public\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\robots.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 7,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "src\\App.js"
+                },
+                {
+                    "filename": "src\\assets\\images\\addresscontact.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\assets\\images\\bg-pattern.svg"
+                },
+                {
+                    "filename": "src\\assets\\images\\commercialmoving.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\competetivepricing.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\customizedservices.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\domesticmoving.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\emailcontact.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\fragilegoods.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\gatividhi.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\herotruck.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\assets\\images\\icon-close.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\assets\\images\\icon-facebook.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\assets\\images\\icon-hamburger.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\assets\\images\\icon-linkedin.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\assets\\images\\icon-twitter.svg"
+                },
+                {
+                    "filename": "src\\assets\\images\\officemoving.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\paymentprocess.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\phonecontact.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\securepkg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\securetrans.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\supportcontact.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\timelydelivery.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\trainedlabour.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\images\\widerange.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\components\\Button\\Button.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "src\\components\\Button\\ButtonStyles.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "src\\components\\FaqSection\\faq.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "src\\components\\FaqSection\\FaqSection.jsx"
+                },
+                {
+                    "blank": 24,
+                    "code": 138,
+                    "comment": 0,
+                    "filename": "src\\components\\FeatureSection\\FeatureSection.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "src\\components\\FeatureSection\\FeatureSection.jsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 79,
+                    "comment": 1,
+                    "filename": "src\\components\\Footer\\Footer.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 85,
+                    "comment": 0,
+                    "filename": "src\\components\\Footer\\Footer.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\Header\\config\\config.js"
+                },
+                {
+                    "blank": 26,
+                    "code": 138,
+                    "comment": 0,
+                    "filename": "src\\components\\Header\\Header.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "src\\components\\Header\\Header.jsx"
+                },
+                {
+                    "blank": 25,
+                    "code": 130,
+                    "comment": 0,
+                    "filename": "src\\components\\HeroSection\\HeroSection.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "src\\components\\HeroSection\\HeroSection.jsx"
+                },
+                {
+                    "blank": 20,
+                    "code": 97,
+                    "comment": 0,
+                    "filename": "src\\components\\quoteforms\\forms.css"
+                },
+                {
+                    "blank": 19,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "src\\components\\quoteforms\\forms.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\data\\global\\brandData.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "src\\data\\global\\menuData.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "src\\data\\Home\\DownloadSectionData.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src\\data\\Home\\FaqSectionData.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "src\\data\\Home\\FeatureSectionData.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "src\\data\\Home\\footerSectiondata.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\data\\Home\\HeroSectionData.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "src\\data\\Home\\paymentdata.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 82,
+                    "comment": 1,
+                    "filename": "src\\data\\Home\\servicesdata.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\helpers\\MediaQueries.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\index.js"
+                },
+                {
+                    "blank": 29,
+                    "code": 111,
+                    "comment": 0,
+                    "filename": "src\\pages\\contact\\contact.css"
+                },
+                {
+                    "blank": 19,
+                    "code": 124,
+                    "comment": 0,
+                    "filename": "src\\pages\\contact\\contact.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "src\\pages\\getquote\\Getquote.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "src\\pages\\Home\\Home.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "src\\pages\\payment\\payment.css"
+                },
+                {
+                    "blank": 18,
+                    "code": 80,
+                    "comment": 1,
+                    "filename": "src\\pages\\payment\\payment.jsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "src\\pages\\services\\services.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 56,
+                    "comment": 13,
+                    "filename": "src\\pages\\services\\services.jsx"
+                },
+                {
+                    "blank": 30,
+                    "code": 101,
+                    "comment": 13,
+                    "filename": "src\\styles\\GlobalStyles.js"
+                }
+            ]
+        }
+    ]
+}
