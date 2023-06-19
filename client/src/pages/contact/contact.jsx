@@ -12,6 +12,8 @@ import emailcontact from '../../assets/images/emailcontact.png'
 import supportcontact from '../../assets/images/supportcontact.png'
 import {toast,Toaster} from 'react-hot-toast'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
+import { contactmessageroute } from '../api/apiroutes'
 
 function Contact() {
 
@@ -25,6 +27,9 @@ function Contact() {
   
 
     let isValid = true;
+
+    
+
   
     if (fullName.trim() === '') {
       isValid = false;
@@ -41,8 +46,14 @@ function Contact() {
     }
   
     if (isValid) {
+      const {data}=axios.post(contactmessageroute,{
+        fullName,
+        email,
+        message
+      }
+        )
       
-      toast.error('this feature is still in development');
+      toast.success('Message sent successfully');
     } else {
       toast.error('Please fill in all required fields correctly');
     }

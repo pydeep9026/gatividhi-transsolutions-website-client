@@ -6,6 +6,8 @@ import { Toaster,toast } from 'react-hot-toast';
 import commercialmoving from "../../assets/images/commercialmoving.png";
 import domesticmoving from "../../assets/images/domesticmoving.png";
 import officemoving from "../../assets/images/officemoving.png";
+import axios from 'axios';
+import { enquiryroute } from '../../pages/api/apiroutes';
 
 const   Forms = () => {
   const [selectedOption, setSelectedOption] = useState('');
@@ -53,9 +55,28 @@ const   Forms = () => {
       toast.error("Please enter the 'To' location");
       return;
     }
-  
     
-    toast.success("Form submitted successfully");
+    try {
+     
+      const {data}= axios.post(enquiryroute, {
+        fullName,
+        email,
+        from,
+        to,
+        date
+      });
+  
+      event.target.elements.fullName.value = "";
+      event.target.elements.email.value = "";
+      event.target.elements.from.value = "";
+      event.target.elements.to.value = "";
+      event.target.elements.date.value = "";
+  
+      toast.success("Your enquiry has been sent successfully. We will get back to you as soon as possible.");
+    } catch (error) {
+      console.error(error);
+      toast.error("An error occurred while submitting the enquiry");
+    }
   };
   
   const isValidEmail = (email) => {
