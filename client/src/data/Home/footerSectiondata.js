@@ -9,8 +9,8 @@ export const FooterData = {
     footertitle3:"Contact Us",
     address:"Gomtinagar, Lucknow, uttar pradesh, India",
     email:"support@gatividhits.com",
-    phone1:"+919026003602",
-    phone2:"+919026003602",
+    phone1:"+919219974136",
+    phone2:"+919219974136",
     copyright:"© 2023 Gatividhi transsolutions pvt. ltd. All rights reserved."
 }
 

@@ -93,7 +93,7 @@ function Contact() {
           <div className="contact-box">
             <img src={phonecontact} alt="phone" />
             <h3 className="box-heading">Phone</h3>
-            <a href="tel:+919026003602"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone1}</p></a>
+            <a href="tel:+919219974136"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone1}</p></a>
           </div>
           <div className="contact-box">
             <img src={emailcontact} alt="email" />
@@ -103,7 +103,7 @@ function Contact() {
           <div className="contact-box">
             <img src={supportcontact} alt="support" />
             <h3 className="box-heading">Customer Support</h3>
-            <a href="tel:+919026003602"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone2}</p></a>
+            <a href="tel:+919219974136"><p style={{color:"#0154A0",textDecoration:"underline"}}>{FooterData.phone2}</p></a>
           </div>
         </div>
       </div>
