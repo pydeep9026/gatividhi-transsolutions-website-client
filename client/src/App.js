@@ -23,7 +23,7 @@ const App = () => {
   }, []);
   const handleContextMenu = (event) => {
     event.preventDefault();
-    toast.error("right disabled due to security reasons");
+    toast.error("right click disabled due to security reasons");
   }
 
   return (<>
