@@ -7,17 +7,14 @@
     <img src="https://user-images.githubusercontent.com/91087103/229338758-b28f8012-3ac9-4cd6-a9a1-d38128bbd3ff.png" alt="Logo" width="80" height="80">
   </a>     
 
-  <h3 align="center">Portfolio-website-windows11</h3> 
+  <h3 align="center">gatividhi-transsolutions-website</h3> 
  
   <p align="center">
-    A unique portfolio webiste based of windows 11 user interface
+    A fullstack website built for a transport company
     <br />  
     <br />  
-    <a href="https://pradeeps.me">View live Demo</a>
-    ·
-    <a href="https://form.typeform.com/to/J29jkJOT">Report Bug</a>
-    ·
-    <a href="https://form.typeform.com/to/J29jkJOT">Request Feature</a>
+    <a href="https://gatividhits.com">View live Demo</a>
+    
   </p>
 </div> 
 
@@ -28,48 +25,19 @@
 <!-- ABOUT THE PROJECT --> 
 ## About The Project
 
-Welcome to my personal portfolio website. As a web dev enthusiast and a creative professional, I have designed this platform to showcase my works and accomplishments in a unique and modern way.
-
-With this website, I have combined the familiar elements of the Windows 11 operating system with my own creativity and expertise to create a dynamic and interactive portfolio website that reflects my personal brand and style.
-
-On my website, you can explore my various projects, works, and achievements in a sleek and sophisticated environment. I have organized my portfolio into different categories, such as social handles, projects, and development, to showcase my skills and expertise.
+The Full Stack MERN (MongoDB, Express.js, React.js, Node.js) project for a transport company with an admin panel is designed to provide a comprehensive solution for managing various aspects of the company's operations. This project leverages the power of the MERN stack to create a scalable, efficient, and user-friendly system that caters to the specific needs of a transport company. With a focus on both customer-facing features and internal management tools, this project aims to streamline operations, enhance customer experience, and improve overall efficiency.
 
 
 
 ### Built With
 
-* ![React][React.js]
-* ![Redux][Redux.js]
-* ![CSS][CSS.js]
-
-[React.js]: https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=white
-[Redux.js]: https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=Redux&logoColor=white
-[CSS.js]: https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white
-
+* ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=white)
+* ![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=Express&logoColor=white)
+* ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=Node.js&logoColor=white)
+* ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
 
 
 <br/>
-
-
-
-## credits
-
-*  **icons8**: almost all the icons in this projects have been taken from [icons8 website](https://icons8.com/) .
-
-<br/>
-
-* **About header**: The header for the About component was not created by me, but rather modified. The original header can be found here [Sangam Mukherjee](https://github.com/sangammukherjee).
-
-<br/>
-
-* **Skill icons**: The icons section used in the Skill component was not created by me, but rather the original code was converted from TypeScript to JavaScript by me. Unfortunately, I cannot find the link to the original code anymore.
-
-<br/>
-
-* **npmjs**: since i have extensively used libraries from node package manager. i am thankfull to all the creators and publishers there.
-
-#### Note: 
-This list of credits may not be exhaustive and some sources could have been left out. If you believe there are any missing credits, please let me know and I will be happy to add them.
 
 
 
