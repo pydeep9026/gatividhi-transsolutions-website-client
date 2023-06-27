@@ -4,7 +4,7 @@
 <br /> 
 <div align="center">    
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://user-images.githubusercontent.com/91087103/229338758-b28f8012-3ac9-4cd6-a9a1-d38128bbd3ff.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/pydeep9026/gatividhi-transsolutions-website-client/assets/91087103/a670cd94-6c8a-44ce-8c19-dab0806b14fa" alt="Logo" width="80" height="80">
   </a>     
 
   <h3 align="center">gatividhi-transsolutions-website</h3> 
