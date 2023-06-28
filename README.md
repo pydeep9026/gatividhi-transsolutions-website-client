@@ -11,7 +11,6 @@
  
   <p align="center">
     A fullstack website built for a transport company
-
     <br />  
     <br />  
     <a href="https://gatividhits.com">View live Demo</a>
