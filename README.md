@@ -4,13 +4,14 @@
 <br /> 
 <div align="center">    
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/pydeep9026/gatividhi-transsolutions-website-client/assets/91087103/a670cd94-6c8a-44ce-8c19-dab0806b14fa" alt="Logo" width="80" height="80">
+    <img src="https://github.com/pydeep9026/gatividhi-transsolutions-website-client/assets/91087103/b40bc0ff-844b-416c-875a-3fbba44f670c" alt="Logo" width="120" height="80">
   </a>     
 
   <h3 align="center">gatividhi-transsolutions-website</h3> 
  
   <p align="center">
     A fullstack website built for a transport company
+
     <br />  
     <br />  
     <a href="https://gatividhits.com">View live Demo</a>
